@@ -7,7 +7,7 @@
 2. `git checkout dev` (or git switch 브랜치명)
    dev 브랜치로 전환합니다.
 3. `git pull origin dev`
-   원격 저장소의 dev 브랜치에서 최신 변경사항을 가져옵니다.
+   dev 브랜치에서 최신 변경사항을 가져옵니다.
 4. `git checkout 브랜치명` (or git switch 브랜치명)
    다시 작업 중인 브랜치로 전환합니다.
 5. `git merge dev`
