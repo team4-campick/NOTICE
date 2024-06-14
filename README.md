@@ -4,22 +4,20 @@
 
 1. `git stash`
    작업 중인 코드가 있을 경우 임시로 저장합니다. (변경사항이 없으면 생략해도 됩니다)
-2. `git checkout dev` (or git switch 브랜치명)
-   dev 브랜치로 전환합니다.
-3. `git pull origin dev`
-   dev 브랜치에서 최신 변경사항을 가져옵니다.
-4. `git checkout 브랜치명` (or git switch 브랜치명)
+2. `git pull origin dev`
+   원격 저장소의 dev 브랜치에서 최신 변경사항을 가져옵니다.
+3. `git checkout 브랜치명` (or git switch 브랜치명)
    다시 작업 중인 브랜치로 전환합니다.
-5. `git merge dev`
+4. `git merge dev`
    dev 브랜치의 최신 변경사항을 현재 작업 중인 브랜치에 병합합니다. 이 때 충돌이 발생할 수 경우 해결후 진행합니다.
-6. `git stash apply`
+5. `git stash apply`
    stash 해두었던 작업 중인 코드를 다시 적용합니다. 이때도 충돌이 발생할 수 있으니 확인 후 해결합니다.
    (1번을 안 했을 경우 6번도 생략)
-7. `git add .`
+6. `git add .`
    변경된 파일을 스테이징합니다.
-8. `git commit -m “남길 커밋 메세지”`
+7. `git commit -m “남길 커밋 메세지”`
    변경사항을 커밋합니다.
-9. `git push origin 브랜치명`
+8. `git push origin 브랜치명`
    작업한 브랜치를 원격 저장소에 푸시합니다.
 
 ## Git 주의 사항
